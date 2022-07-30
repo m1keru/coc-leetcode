@@ -68,7 +68,7 @@ class Task extends EventEmitter implements ListTask {
 export default class LeetcodeList implements IList {
   public readonly name = 'LeetcodeProblems';
   public readonly interactive = false;
-  public readonly description = 'Problems of leetcode-cn';
+  public readonly description = 'Problems of leetcode';
   public readonly defaultAction = 'open';
   public actions: ListAction[] = [
     {
